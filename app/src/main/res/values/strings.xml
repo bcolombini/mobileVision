@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileVision</string>
+    <string name="dialog_message_Main_activity">Funcionando</string>
+    <string name="dialog_message_Full_activity">Funcionando_Full Screen</string>
+    <string name="dialog_title">Ola</string>
+    <string name="title_activity_linear_layout">LinearLayout</string>
+</resources>
