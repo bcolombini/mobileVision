@@ -42,28 +42,33 @@ public class FullScreenActivity extends AppCompatActivity {
 
         cameraSource = new CameraSource
                 .Builder(this, barcodeDetector)
-                .setRequestedFps(15.0f)
+                .setAutoFocusEnabled(true)
                 .build();
-
-
-
 
 
         cameraView.getHolder().addCallback(new SurfaceHolder.Callback() {
             @Override
             public void surfaceCreated(SurfaceHolder holder) {
                 try {
+                    if (ActivityCompat.checkSelfPermission(getApplicationContext(), android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                        // TODO: Consider calling
+                        //    ActivityCompat#requestPermissions
+                        // here to request the missing permissions, and then overriding
+                        //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                        //                                          int[] grantResults)
+                        // to handle the case where the user grants the permission. See the documentation
+                        // for ActivityCompat#requestPermissions for more details.
+                        return;
+                    }
                     cameraSource.start(cameraView.getHolder());
-
-
-
-                    barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
+                        barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
                         @Override
                         public void release() {
                         }
 
                         @Override
                         public void receiveDetections(Detector.Detections<Barcode> detections) {
+
                             final SparseArray<Barcode> barcodes = detections.getDetectedItems();
 
                             if (barcodes.size() != 0) {
