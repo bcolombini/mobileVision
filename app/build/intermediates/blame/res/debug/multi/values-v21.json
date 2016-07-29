@@ -1765,9 +1765,28 @@
                     "startLine": 259,
                     "startColumn": 4,
                     "startOffset": 18771,
-                    "endLine": 261,
+                    "endColumn": 121,
+                    "endOffset": 18888
+                },
+                "from": {
+                    "file": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.2.1/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endColumn": 121,
+                        "endOffset": 337
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 260,
+                    "startColumn": 4,
+                    "startOffset": 18893,
+                    "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 18960
+                    "endOffset": 19082
                 },
                 "from": {
                     "file": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/values-v21/values-v21.xml",

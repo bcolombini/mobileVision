@@ -1,1 +1,0 @@
-CHANGED,/home/bruno/DevAndroid/MobileVision/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/bruno/mobilevision/FullScreenActivity$1$1.class

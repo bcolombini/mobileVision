@@ -8,6 +8,10 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_content_include.xml"
     },
@@ -48,6 +52,10 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_mini_controller.xml"
+    },
+    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_mode_bar.xml"
     },
@@ -69,7 +77,11 @@
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
-        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_chooser_dialog.xml"
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_fragment.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
@@ -82,6 +94,14 @@
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -113,7 +133,7 @@
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
-        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
@@ -144,6 +164,14 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
@@ -160,12 +188,12 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -196,6 +224,10 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_menu_item_action_area.xml"
     },
     {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/cast_intro_overlay.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_intro_overlay.xml"
+    },
+    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/notification_template_big_media_narrow.xml"
     },
@@ -210,6 +242,10 @@
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/res/layout/cast_help_text.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",

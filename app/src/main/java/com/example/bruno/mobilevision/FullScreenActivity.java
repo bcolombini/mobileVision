@@ -42,10 +42,11 @@ public class FullScreenActivity extends AppCompatActivity {
 
         cameraSource = new CameraSource
                 .Builder(this, barcodeDetector)
+                .setRequestedFps(15.0f)
                 .build();
 
-        CameraSource.Builder cmSrc = new CameraSource.Builder(getApplicationContext(), barcodeDetector);
-        cmSrc = builder.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
+
+
 
 
         cameraView.getHolder().addCallback(new SurfaceHolder.Callback() {
@@ -53,7 +54,9 @@ public class FullScreenActivity extends AppCompatActivity {
             public void surfaceCreated(SurfaceHolder holder) {
                 try {
                     cameraSource.start(cameraView.getHolder());
-                    Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE;
+
+
+
                     barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
                         @Override
                         public void release() {
