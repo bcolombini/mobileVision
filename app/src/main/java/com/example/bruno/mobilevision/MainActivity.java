@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 1) {
-            TextView txtView = (TextView) findViewById(R.id.Resultado);
-            txtView.setText(data.getStringExtra("Codigo"));
+//            TextView txtView = (TextView) findViewById(R.id.Resultado);
+//            txtView.setText(data.getStringExtra("Codigo"));
         }
         super.onActivityResult(requestCode, resultCode, data);
 

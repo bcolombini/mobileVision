@@ -1,6 +1,10 @@
 package com.example.bruno.mobilevision;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.RectF;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
@@ -15,6 +19,7 @@ import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
+import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
@@ -33,7 +38,7 @@ public class FullScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_screen);
 
-        this.fade((TextView)findViewById(R.id.line));
+        this.fade((TextView) findViewById(R.id.line));
         //Start Mobile Vision
         cameraView = (SurfaceView) findViewById(R.id.camera_view);
 
@@ -43,9 +48,7 @@ public class FullScreenActivity extends AppCompatActivity {
 
         cameraSource = new CameraSource
                 .Builder(this, barcodeDetector)
-                .setAutoFocusEnabled(true)
                 .build();
-
 
         cameraView.getHolder().addCallback(new SurfaceHolder.Callback() {
             @Override
@@ -62,7 +65,8 @@ public class FullScreenActivity extends AppCompatActivity {
                         return;
                     }
                     cameraSource.start(cameraView.getHolder());
-                        barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
+
+                    barcodeDetector.setProcessor(new Detector.Processor<Barcode>() {
                         @Override
                         public void release() {
                         }
@@ -78,6 +82,7 @@ public class FullScreenActivity extends AppCompatActivity {
 //                                setResult(Activity.RESULT_OK,rs);
 //                                finish();
                                 Log.d("Tamanho: ", String.valueOf(barcodes.valueAt(0).displayValue.length()));
+                                Log.d("Resultado: ", barcodes.valueAt(0).displayValue);
                             }
                         }
                     });
@@ -103,9 +108,8 @@ public class FullScreenActivity extends AppCompatActivity {
         cameraSource.stop();
     }
 
-    public void fade(TextView obj)
-    {
-        final Animation blink = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
+    public void fade(TextView obj) {
+        final Animation blink = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.blink);
         obj.startAnimation(blink);
     }
 }
