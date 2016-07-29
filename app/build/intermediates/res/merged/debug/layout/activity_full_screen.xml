@@ -29,7 +29,6 @@
         android:layout_width="match_parent"
         android:layout_height="4px"
         android:layout_centerInParent="true"
-        android:background="@color/colorDanger"/>
-
-
+        android:background="@color/colorDanger"
+        android:id="@+id/line"/>
 </RelativeLayout>

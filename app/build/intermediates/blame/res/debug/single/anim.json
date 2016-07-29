@@ -4,6 +4,10 @@
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/anim/design_fab_in.xml"
     },
     {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/anim/fadeout.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/src/main/res/anim/fadeout.xml"
+    },
+    {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/anim/abc_popup_exit.xml"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/anim/fadein.xml",
+        "source": "/home/bruno/DevAndroid/MobileVision/app/src/main/res/anim/fadein.xml"
     },
     {
         "merged": "/home/bruno/DevAndroid/MobileVision/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",

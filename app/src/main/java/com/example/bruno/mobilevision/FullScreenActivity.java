@@ -1,9 +1,6 @@
 package com.example.bruno.mobilevision;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
@@ -12,6 +9,9 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.Detector;
@@ -33,6 +33,7 @@ public class FullScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_full_screen);
 
+        this.fade((TextView)findViewById(R.id.line));
         //Start Mobile Vision
         cameraView = (SurfaceView) findViewById(R.id.camera_view);
 
@@ -100,5 +101,11 @@ public class FullScreenActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         cameraSource.stop();
+    }
+
+    public void fade(TextView obj)
+    {
+        final Animation blink = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.blink);
+        obj.startAnimation(blink);
     }
 }
